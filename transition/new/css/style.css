@@ -1,0 +1,23 @@
+.wrap {
+    margin: 0 auto;
+    padding: 15px;
+    width: 850px;
+    height: 300px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .5);
+}
+
+.box {
+    width: 25%;
+    height: 200px;
+    border-radius: 8px;
+    background: #4682b4;
+    transition-property: margin, background;
+    transition-duration: 1s, .6s;
+    transition-timing-function: cubic-bezier(.5, -.5, .5, 1.5) ease;
+    transition-duration: 0s, 1s;
+}
+
+.wrap:hover  .box {
+    background: #f08080;
+    margin-left: 75%;
+}
